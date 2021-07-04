@@ -27,6 +27,8 @@ section{
 }
 .name-design{
     line-height: 35px;
+    text-align: left;
+    margin-left: -50px;
 }
 .half-part p{
     text-align: justify;
@@ -59,7 +61,7 @@ h1{
     background-image: url(img/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
-    background-size: 75px;
+    background-size: 50px;
     
 }
 .dream-img{
@@ -70,9 +72,11 @@ h1{
 }
 .experience{
     text-align: center;
-    margin-top: 100px;
-    margin-bottom: 25px;
+    margin: 35px auto;
     color: white;
+    width: 300px;
+    border-radius: 8px;
+    padding: 0 25px;
     background-image: linear-gradient(orange, orangered);
 }
 .card{
@@ -118,6 +122,7 @@ footer{
     .name-design{
         line-height: 50px;
         text-align: center;
+        margin-left: 0;
     }
     .welcome{
         margin-bottom: -35px;
